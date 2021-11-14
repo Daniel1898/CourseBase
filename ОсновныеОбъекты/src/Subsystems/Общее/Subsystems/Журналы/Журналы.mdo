@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6e70192-4563-492f-8ef2-9a5670e58810">
+  <name>Журналы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журналы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.Общее</parentSubsystem>
+</mdclass:Subsystem>

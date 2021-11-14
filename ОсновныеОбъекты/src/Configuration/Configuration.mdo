@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfc04be8-84a9-41d6-8967-3382789e0638">
+  <name>МагазинСеверныхТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Магазин северных товаров</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3cc893af-d0d3-4137-8ad0-c4860a9a877e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="dde53d10-fe9d-4c7e-903b-14f0f1c500d6"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="eb9e645b-53c9-473d-86b2-efcc0ca5d45f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6b68a09a-362e-4e49-a151-2814f16965dd"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="23e860b4-fecf-480e-b5ba-7cbba3e86cbf"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="9b28f92b-3ef8-47dd-9428-55dd1d828a0c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="93e438d8-9a4e-4d26-9d88-9d1b12c76260"/>
+  <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="2428546b-53a2-48cd-87a6-d1a276736e99">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Общее</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ОтделПродаж</roles>
+  <roles>Role.ОтделЗакупок</roles>
+  <constants>Constant.НаименованиеКомпании</constants>
+  <constants>Constant.УчетПоСериям</constants>
+  <constants>Constant.УчетПоСкладам</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Серии</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <enums>Enum.ВидыТоваров</enums>
+</mdclass:Configuration>

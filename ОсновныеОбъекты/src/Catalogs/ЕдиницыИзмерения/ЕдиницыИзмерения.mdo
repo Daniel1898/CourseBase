@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dde8bbf-5e48-4245-b595-8b3e0fbb5103">
+  <producedTypes>
+    <objectType typeId="45f4597d-d617-4483-8daa-97c576eb58f8" valueTypeId="b13ec6fe-8824-479c-8a03-583ae29b831d"/>
+    <refType typeId="7348524d-a44e-4628-abd3-caaa1236a6d1" valueTypeId="1bc32e7d-1025-4c8f-816f-dafa57e6cf23"/>
+    <selectionType typeId="c050aed1-b4d7-42bb-ba56-2f3355115ff7" valueTypeId="a105603b-c59a-4879-b48d-b2c4a8bafd87"/>
+    <listType typeId="8152d24b-4713-4e75-ae6b-b3cf10800c4a" valueTypeId="1ffe59a3-14a4-40a9-89c1-8dd879c3e250"/>
+    <managerType typeId="95878591-11ba-4a35-8fa3-d48ac383e4ac" valueTypeId="de58dab8-649b-438d-8429-f32abf9b5cee"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Список единиц измерения</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Открытие списка единиц измерения
+</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="638b5789-3b5e-4412-b1f5-5b7328e1a3af">
+      <name>гр</name>
+      <description>Гр</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="c4f31909-c671-4342-882a-108fd993d29c">
+      <name>шт</name>
+      <description>Шт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
