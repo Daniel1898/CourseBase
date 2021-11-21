@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a2c40a1-abba-4800-8339-57bab9d099a1">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a2c40a1-abba-4800-8339-57bab9d099a1">
   <producedTypes>
     <objectType typeId="a3358678-6026-4558-9ba2-2ee02d2c9664" valueTypeId="7d69c1ad-26c5-42a6-b78f-bf42dfeb3c9b"/>
     <refType typeId="91028d51-8804-40ed-b359-15ac5aa057ab" valueTypeId="2f97ed14-0e8a-446a-92e3-64b26f90ea03"/>
@@ -28,6 +28,29 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5c4f3aea-bd2e-4244-a5f8-a4e95cbe45a8">
+      <name>Бухгалтер</name>
+      <description>Бухгалтер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="b03dde18-f9c3-4511-83b7-3ca717f9ba02">
+      <name>ГлавныйБухгалер</name>
+      <description>Главный бухгалер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="5b3bdd79-4e68-42db-98e5-c4647267d2e6">
+      <name>Кассир</name>
+      <description>Кассир</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>

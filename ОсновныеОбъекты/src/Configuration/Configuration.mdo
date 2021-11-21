@@ -56,5 +56,7 @@
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
   <enums>Enum.ВидыТоваров</enums>
 </mdclass:Configuration>
