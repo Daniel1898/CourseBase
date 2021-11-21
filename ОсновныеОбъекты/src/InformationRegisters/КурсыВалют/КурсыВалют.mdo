@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69998023-d399-427a-9a8d-a3f1dd458fa1">
+  <producedTypes>
+    <selectionType typeId="509733cb-a9e2-49cd-973f-2e7f95f9e3ff" valueTypeId="e499c3ec-5c37-4323-a6e6-d7b5112d2296"/>
+    <listType typeId="7447f67a-74c3-42bb-a6f2-d1fb24e51816" valueTypeId="ee81b30b-05f0-4aa4-8b16-ffd2771510c7"/>
+    <managerType typeId="1340786b-d383-4118-a7ba-59ac117ca5ec" valueTypeId="5fc6e68b-317e-41b0-9dce-5af24e68880f"/>
+    <recordSetType typeId="3944a186-5548-4951-a7ac-bd93b4dcecf2" valueTypeId="fe2ab3b2-2263-41ff-9b89-2be48a01087f"/>
+    <recordKeyType typeId="5929a881-46e6-4d53-8638-eacd68da78f1" valueTypeId="5f7b1d70-8f48-49fd-a5c2-4e99667f65cd"/>
+    <recordType typeId="a8558781-3ed9-4e2d-a724-0f8955ab086d" valueTypeId="e12e769a-9b0f-4ca9-85aa-3747c46c010d"/>
+    <recordManagerType typeId="a1b7c65d-d27b-4eb4-8160-c91a5574f903" valueTypeId="e805c161-8da7-4c38-8c54-e6d742ad47fa"/>
+  </producedTypes>
+  <name>КурсыВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курсы валют</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КурсыВалют.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="06355dc3-6294-4c7f-bae7-84b7caf8b901">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="93d0d7d2-76cb-4ce7-9bbd-1f427394525a">
+    <name>Кратность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кратность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5aa636aa-fe30-47a3-94f9-b521d96a2936">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8a89d259-5d21-45c4-9bfb-6d621f0ab14e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

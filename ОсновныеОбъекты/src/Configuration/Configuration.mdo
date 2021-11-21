@@ -45,6 +45,9 @@
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ОтделПродаж</roles>
   <roles>Role.ОтделЗакупок</roles>
+  <filterCriteria>FilterCriterion.НоменклатураВДокументах</filterCriteria>
+  <functionalOptions>FunctionalOption.ПоСериям</functionalOptions>
+  <functionalOptions>FunctionalOption.ПоСкладам</functionalOptions>
   <constants>Constant.НаименованиеКомпании</constants>
   <constants>Constant.УчетПоСериям</constants>
   <constants>Constant.УчетПоСкладам</constants>
@@ -58,5 +61,13 @@
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ЗначенияСвойств</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ПродажаТоваров</documents>
   <enums>Enum.ВидыТоваров</enums>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+  <informationRegisters>InformationRegister.СвойстваОбъектов</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеСвойства</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

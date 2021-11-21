@@ -11,6 +11,10 @@
   <content>Constant.УчетПоСериям</content>
   <content>Constant.УчетПоСкладам</content>
   <content>CommonForm.ФормаКонстант</content>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>InformationRegister.СвойстваОбъектов</content>
+  <content>ChartOfCharacteristicTypes.ДополнительныеСвойства</content>
+  <content>Catalog.ЗначенияСвойств</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Журналы</subsystems>
 </mdclass:Subsystem>

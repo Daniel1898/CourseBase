@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d79847e-d9a4-499c-9769-4688475386a3">
+  <producedTypes>
+    <objectType typeId="f93f1484-bc5a-4f5d-a34f-ef98f8bebcfd" valueTypeId="5051bddb-2261-437f-b972-85668d8b0701"/>
+    <refType typeId="f7540887-62e1-4d66-ada9-b0d5146cb2da" valueTypeId="0a249213-06f9-49b2-a358-11b70ed66d5a"/>
+    <selectionType typeId="58f09118-69fc-41fb-829e-317873f0322b" valueTypeId="a6b5b150-e306-44e9-bc16-41a059aff538"/>
+    <listType typeId="d5c3f121-42a0-4c7a-b882-14aee5f11408" valueTypeId="d71557c6-d23d-40b9-8330-38e0be5ba6da"/>
+    <managerType typeId="dac363a4-a096-46d5-8624-ca51c35f52d1" valueTypeId="ee714fc0-01e5-440f-8fe7-e43190fcd642"/>
+    <containerType typeId="3834a950-ccec-4cc2-9b69-bd31b95803b7" valueTypeId="759e10c2-e719-4dd2-9690-b74da30dfa38"/>
+  </producedTypes>
+  <name>ДополнительныеСвойства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные свойства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ДополнительныеСвойства.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ДополнительныеСвойства.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ЗначенияСвойств</characteristicExtValues>
+  <type>
+    <types>CatalogRef.Подразделения</types>
+    <types>CatalogRef.ЕдиницыИзмерения</types>
+    <types>CatalogRef.Серии</types>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>Number</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Boolean</types>
+    <types>CatalogRef.ЗначенияСвойств</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4f7eb6f4-40b7-4667-bb46-fc8de2d34b6f">
+      <name>Жирность</name>
+      <description>Жирность</description>
+      <code>000000001</code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

@@ -410,7 +410,17 @@
     <savedData>true</savedData>
   </attributes>
   <commandInterface>
-    <navigationPanel/>
+    <navigationPanel>
+      <cmiFragmentRecord>
+        <command>FilterCriterion.НоменклатураВДокументах.StandardCommand.OpenByValue</command>
+        <commandParameter xsi:type="form:DataPath">
+          <segments>Объект.Ref</segments>
+        </commandParameter>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
+    </navigationPanel>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo"/>

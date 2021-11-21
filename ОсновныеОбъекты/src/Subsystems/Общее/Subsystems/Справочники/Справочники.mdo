@@ -14,5 +14,7 @@
   <content>Catalog.Склады</content>
   <content>Catalog.ФизическиеЛица</content>
   <content>Catalog.Должности</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.КонтактныеЛица</content>
   <parentSubsystem>Subsystem.Общее</parentSubsystem>
 </mdclass:Subsystem>
